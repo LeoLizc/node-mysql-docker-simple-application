@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "proyecto final de la asignatura de estructura del computador 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoLizc/node-mysql-docker-simple-application.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "proyecto-final",
+    "mysql"
+  ],
+  "author": "Leolizc, breynner1, nose",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeoLizc/node-mysql-docker-simple-application/issues"
+  },
+  "homepage": "https://github.com/LeoLizc/node-mysql-docker-simple-application#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

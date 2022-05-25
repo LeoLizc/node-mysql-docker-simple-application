@@ -7,6 +7,8 @@ app.set('port', (process.env.PORT || 3000));
 // requiring mysql connection
 const connection = require('./database');
 console.log(connection.state);
+console.log(process.env.DB_HOST);
+
 //setting up mysql connection
 // connection.connect((err) => {
 //     if (err) {
